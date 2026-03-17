@@ -1,4 +1,6 @@
-import { useState } from "react";
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+
 import Footer from "./components/Footer";
 import ShimmerLine from "./components/ShimmerLine";
 
@@ -7,6 +9,8 @@ import "./index.css";
 function App() {
   return (
     <>
+      <Nav />
+      <Hero />
       {/* Test Section 1 */}
       <section
         style={{
