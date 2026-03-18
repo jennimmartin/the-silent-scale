@@ -8,7 +8,11 @@ export default function Footer() {
     <>
       <footer className="footer">
         <div className="footer-content">
-          <div className="footer-logo">THE SILENT SCALE</div>
+          <img
+            src="/logo.png"
+            alt="The Silent Scale"
+            className="footer-logo-img"
+          />
 
           <nav className="footer-nav">
             <a href="#services">Services</a>

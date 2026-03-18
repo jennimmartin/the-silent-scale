@@ -11,12 +11,12 @@ export default function Hero() {
     <section id="home" className="hero">
       <div className="hero-content">
         <h1 className="hero-title">
-          Turn Your Influence Into Automated Revenue
+          Strategic Growth Partner for Creator & Digital Businesses
         </h1>
 
         <p className="hero-subtitle">
-          We build and manage digital products for creators. You stay visible,
-          we stay silent.
+          Helping creators and brands build revenue systems that scale to six
+          figures and beyond
         </p>
 
         <a
@@ -24,7 +24,7 @@ export default function Hero() {
           className="btn hero-cta"
           onClick={(e) => handleScroll(e, "#apply")}
         >
-          Book Free Audit
+          Apply to Work Together
         </a>
 
         <p className="hero-tagline">
