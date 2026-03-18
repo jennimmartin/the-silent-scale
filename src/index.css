@@ -517,8 +517,7 @@ ul {
   top: 0;
   left: 0;
   right: 0;
-  background: var(--white);
-  border-bottom: 1px solid var(--grey-300);
+  background: var(--primary-700);
   z-index: 1000;
   padding: 1.25rem 2.5rem;
 }
@@ -542,7 +541,7 @@ ul {
 }
 
 .nav-logo-img {
-  height: 40px;
+  height: 60px;
   width: auto;
   display: block;
 }
@@ -561,23 +560,23 @@ ul {
 
 .nav-links a {
   font-size: 0.875rem;
-  color: var(--grey-600);
+  color: var(--grey-300);
   text-decoration: none;
   font-weight: 500;
   transition: var(--transition);
 }
 
 .nav-links a:hover {
-  color: var(--primary-600);
+  color: var(--primary-300);
 }
 
 .nav-cta {
-  color: var(--primary-600) !important;
+  color: var(--primary-700) !important;
   font-weight: 600 !important;
 }
 
 .nav-cta:hover {
-  color: var(--primary-500) !important;
+  color: var(--primary-300) !important;
 }
 
 /* Mobile Toggle Button */
@@ -599,7 +598,7 @@ ul {
 .nav-toggle-icon span {
   display: block;
   height: 2px;
-  background: var(--primary-600);
+  background: var(--grey-300);
   transition: var(--transition);
 }
 
@@ -649,6 +648,7 @@ ul {
 
   .nav-links a {
     padding: 1rem 0;
+    color: var(--grey-600);
     width: 100%;
     text-align: center;
     border-bottom: 1px solid var(--grey-100);
