@@ -15,8 +15,8 @@ export default function Footer() {
           />
 
           <nav className="footer-nav">
+            <a href="#process">How It Works</a>
             <a href="#services">Services</a>
-            <a href="#case-study">Case Study</a>
             <a href="#apply">Apply</a>
             <button
               onClick={() => setShowPrivacy(true)}

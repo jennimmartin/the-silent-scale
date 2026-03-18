@@ -40,11 +40,11 @@ export default function Nav() {
         </button>
 
         <div className={isOpen ? "nav-links open" : "nav-links"}>
+          <a href="#process" onClick={(e) => handleScroll(e, "#process")}>
+            How It Works
+          </a>
           <a href="#services" onClick={(e) => handleScroll(e, "#services")}>
             Services
-          </a>
-          <a href="#case-study" onClick={(e) => handleScroll(e, "#case-study")}>
-            Case Study
           </a>
           <a
             href="#apply"

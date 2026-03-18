@@ -10,13 +10,11 @@ export default function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-content">
-        <h1 className="hero-title">
-          Strategic Growth Partner for Creator & Digital Businesses
-        </h1>
+        <h1 className="hero-title">Shadow Operator for Digital Creators</h1>
 
         <p className="hero-subtitle">
-          Helping creators and brands build revenue systems that scale to six
-          figures and beyond
+          We build and automate your digital products on Whop. You stay visible,
+          we stay silent.
         </p>
 
         <a

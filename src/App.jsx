@@ -1,8 +1,9 @@
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import ProofSection from "./components/ProofSection";
+import WhoThisIsFor from "./components/WhoThisIsFor";
+import ProcessSection from "./components/ProcessSection";
 import ServicesSection from "./components/ServicesSection";
-import CaseStudy from "./components/CaseStudy";
 import ApplyForm from "./components/ApplyForm";
 import ShimmerLine from "./components/ShimmerLine";
 import Footer from "./components/Footer";
@@ -17,7 +18,11 @@ function App() {
 
       <ShimmerLine />
 
-      <ProofSection />
+      <ProcessSection />
+
+      <ShimmerLine />
+
+      <WhoThisIsFor />
 
       <ShimmerLine />
 
@@ -25,11 +30,9 @@ function App() {
 
       <ShimmerLine />
 
-      <CaseStudy />
-
-      <ShimmerLine />
-
       <ApplyForm />
+
+      <ProofSection />
 
       <Footer />
     </>
