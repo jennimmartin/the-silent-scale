@@ -20,7 +20,7 @@ export default function ServicesSection() {
               <li>Basic automations</li>
               <li>1 launch plan</li>
             </ul>
-            <p className="service-price">Starting at $5K</p>
+            <p className="service-price">Revenue share</p>
           </div>
 
           {/* Pro */}
@@ -37,7 +37,7 @@ export default function ServicesSection() {
               <li>AI-generated marketing materials</li>
               <li>30-day launch content plan</li>
             </ul>
-            <p className="service-price">$8K–$12K or revenue share</p>
+            <p className="service-price">Revenue share</p>
           </div>
 
           {/* Elite */}
@@ -54,7 +54,7 @@ export default function ServicesSection() {
               <li>Full automation stack</li>
               <li>Scaling roadmap</li>
             </ul>
-            <p className="service-price">$15K+ or revenue share</p>
+            <p className="service-price">Revenue share</p>
           </div>
         </div>
       </div>

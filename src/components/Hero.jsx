@@ -13,8 +13,8 @@ export default function Hero() {
         <h1 className="hero-title">Shadow Operator for Digital Creators</h1>
 
         <p className="hero-subtitle">
-          We build and automate your digital products on Whop. You stay visible,
-          we stay silent.
+          We help you build and automate your digital products on Whop and other
+          platforms. You stay visible, we stay silent.
         </p>
 
         <a
