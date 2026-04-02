@@ -35,9 +35,6 @@
     <meta property="og:url" content="https://thesilentscale.com" />
     <meta property="og:type" content="website" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="" />
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,9 +42,36 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Simple Analytics -->
+    <script
+      async
+      defer
+      src="https://scripts.simpleanalyticscdn.com/latest.js"
+    ></script>
+    <noscript
+      ><img
+        src="https://queue.simpleanalyticscdn.com/noscript.gif"
+        alt=""
+        referrerpolicy="no-referrer-when-downgrade"
+    /></noscript>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Hidden form for Netlify Forms detection -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="text" name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="audienceSize" />
+      <input type="text" name="currentRevenue" />
+      <textarea name="buildGoal"></textarea>
+      <textarea name="biggestChallenge"></textarea>
+      <input type="text" name="platforms" />
+    </form>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
